@@ -6,13 +6,13 @@ import java.util.Properties;
 
 public class TestBase {
 	
-	public Properties prop;
+	public Properties prop1;
 	
 	public TestBase() {
 		try {
-			 prop = new Properties();
+			 prop1 = new Properties();
 			FileInputStream fls = new FileInputStream("C:\\Users\\Samsung\\eclipse-workspace\\RestAPI\\src\\main\\java\\com\\qa\\config\\config.properties");
-			prop.load(fls);
+			prop1.load(fls);
 		}
 		catch (IOException e)
 		{
